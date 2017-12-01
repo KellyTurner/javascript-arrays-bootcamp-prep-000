@@ -4,7 +4,7 @@ function addElementToBeginningOfArray(array, element) {
   var new_array = [element, ...array]
   return new_array
 }
-function addElementToEndOfArray (array,element) {
-  var new_array2 = [element, ...array]
+function addElementToEndOfArray (array, element) {
+  var new_array2 = [...array, element]
   return new_array2
   }
