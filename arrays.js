@@ -5,5 +5,6 @@ function addElementToBeginningOfArray(array, element) {
   return array
 }
 function addElementToEndOfArray (array,element) {
-  var new_array = [(element), ...array]
+  var array = [element, ...array]
+  return array
   }
