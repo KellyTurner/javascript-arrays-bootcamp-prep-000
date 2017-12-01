@@ -32,6 +32,6 @@ var new_array3 = array.slice(1)
 return new_array3
 }
 function removeElementFromEndOfArray (array) {
-  array.slice(0, array.length - 1)
-  return array
+  var new_array4 = array.slice(0, array.length - 1)
+  return new_array4
 }
