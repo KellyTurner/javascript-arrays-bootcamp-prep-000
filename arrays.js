@@ -5,5 +5,5 @@ function addElementToBeginningOfArray(array,element) {
 
 }
 function addElementToEndOfArray (array,element) {
-    array.push(element);
+    [(element), ...array]
   }
